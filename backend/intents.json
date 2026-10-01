@@ -1,0 +1,292 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hey there",
+        "Good morning",
+        "Good afternoon",
+        "Is anyone there?",
+        "Howdy"
+      ],
+      "responses": [
+        "Hi! I can explain how ExpertMatch works, how calls are billed, or what pricing looks like. What would you like to know?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "That's all",
+        "Talk to you later",
+        "I'm done",
+        "Have a good day"
+      ],
+      "responses": [
+        "Thanks for stopping by. You can request access any time at expertmatch.fit/request-access."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Great, thanks",
+        "Appreciate it",
+        "Awesome, thank you",
+        "Perfect"
+      ],
+      "responses": [
+        "Happy to help! Anything else you'd like to know about ExpertMatch?"
+      ]
+    },
+    {
+      "tag": "what_is",
+      "patterns": [
+        "What is ExpertMatch?",
+        "What do you do?",
+        "Tell me about your company",
+        "What does ExpertMatch offer?",
+        "Who are you?",
+        "Explain the product",
+        "What is this service?",
+        "What are expert calls?",
+        "Give me an overview"
+      ],
+      "responses": [
+        "ExpertMatch replaces traditional expert networks for PE firms, family offices, consulting firms, and law firms. We find the right practitioners, run the outreach, book the call from your calendar, and bill it to your card. No account managers, no research fees."
+      ]
+    },
+    {
+      "tag": "how_it_works",
+      "patterns": [
+        "How does it work?",
+        "What is the process?",
+        "What are the steps?",
+        "How do I get an expert call?",
+        "How do you find experts?",
+        "Walk me through it",
+        "Explain the workflow",
+        "What happens after I submit a question?",
+        "How do I book a call?"
+      ],
+      "responses": [
+        "Three steps: 1) Describe your research question: sector, geography, and what you need to understand. 2) We find the experts, and our agent Matchy contacts them anonymously on your behalf, handling the conflict and rate conversation. 3) We book the Zoom from your calendar and charge your card when the call ends."
+      ]
+    },
+    {
+      "tag": "vs_traditional",
+      "patterns": [
+        "How is this different from traditional expert networks?",
+        "Why not use GLG?",
+        "Compare to other expert networks",
+        "What makes you better?",
+        "ExpertMatch vs traditional networks",
+        "Why choose ExpertMatch?",
+        "Advantages over competitors",
+        "How do you compare to Gerson Lehrman?",
+        "What is wrong with traditional networks?",
+        "Are you cheaper than GLG?",
+        "Are you cheaper than other networks?",
+        "How are you different from AlphaSights?",
+        "What is the difference between you and expert networks?",
+        "Why are traditional networks worse?",
+        "Are you better than Guidepoint?"
+      ],
+      "responses": [
+        "Compared with traditional networks: sourcing is automated (minutes vs. a manual researcher), turnaround is under 2 hours (vs. 2-5 business days), outreach and scheduling are handled for you, billing is per-minute and charged instantly (vs. invoice with 30-day net), and you see one rate up front instead of an opaque markup of 3-10x the expert rate."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does it cost?",
+        "What is the pricing?",
+        "Price per seat",
+        "What do you charge?",
+        "Subscription cost",
+        "How much per month?",
+        "Is there a fee?",
+        "Cost for my team",
+        "How much for 8 seats?",
+        "Seat pricing",
+        "What are your plans?"
+      ],
+      "responses": [
+        "Pricing is per active seat per month: $250/seat for 1-5 seats, $200/seat for 6-20 seats, and for 21+ seats you'd talk to the team. Every seat bills at the tier your team size falls into, and you can add or remove seats any time (prorated)."
+      ]
+    },
+    {
+      "tag": "call_billing",
+      "patterns": [
+        "How are calls billed?",
+        "What is the minimum call length?",
+        "Do I pay per minute?",
+        "How does call billing work?",
+        "When am I charged?",
+        "Invoice or credit card?",
+        "Is there a minimum?",
+        "Do I pay for unused time?",
+        "How do payments work?",
+        "Do you charge per minute?",
+        "Is it billed by the minute?",
+        "What is the per-minute billing?",
+        "Do you bill by the hour?",
+        "What happens if my call runs over?"
+      ],
+      "responses": [
+        "Calls have a 15-minute minimum, then are billed per minute, so you pay for time actually used. Your card is charged when the call ends. No invoices or 30-day net."
+      ]
+    },
+    {
+      "tag": "speed",
+      "patterns": [
+        "How fast can I get an expert?",
+        "What is the turnaround time?",
+        "How long does sourcing take?",
+        "How quickly can I get on a call?",
+        "How soon will I hear back?",
+        "Speed of delivery",
+        "How long until I get candidates?",
+        "Is it fast?",
+        "How quickly do you find experts?",
+        "How fast is sourcing?",
+        "How long until I get a call?",
+        "What is your response time?",
+        "Can I get an expert today?",
+        "How soon can I speak to someone?"
+      ],
+      "responses": [
+        "We get from brief to expert candidates in under 2 hours. Traditional networks typically take 2-5 business days."
+      ]
+    },
+    {
+      "tag": "contract",
+      "patterns": [
+        "Is there a contract?",
+        "Annual commitment?",
+        "Can I cancel anytime?",
+        "Is it month to month?",
+        "How long is the commitment?",
+        "Is there a lock-in period?",
+        "Do I have to sign a long term agreement?",
+        "Cancellation policy",
+        "Can I cancel whenever I want?",
+        "Can I cancel at any time?",
+        "Do I have to commit for a year?",
+        "Can I stop the subscription?",
+        "Is there a minimum term?",
+        "What if I want to leave?"
+      ],
+      "responses": [
+        "It's month to month: no annual contract and no account managers."
+      ]
+    },
+    {
+      "tag": "who_for",
+      "patterns": [
+        "Who is this for?",
+        "Who are your customers?",
+        "Target audience",
+        "Do you work with law firms?",
+        "Is this for private equity?",
+        "Do you serve consulting firms?",
+        "Who uses ExpertMatch?",
+        "Can family offices use this?",
+        "Is this for investors?",
+        "Do you work with hedge funds?",
+        "Can asset managers use this?",
+        "Is this for corporate teams?",
+        "Do you serve investment banks?",
+        "Can startups use it?",
+        "Who can sign up?",
+        "What kind of firms use ExpertMatch?",
+        "Is this only for finance professionals?"
+      ],
+      "responses": [
+        "ExpertMatch serves PE firms, family offices, consulting firms, and law firms who need fast access to experienced operators and advisors."
+      ]
+    },
+    {
+      "tag": "anonymity",
+      "patterns": [
+        "Are experts anonymous?",
+        "Do experts know who I am?",
+        "Who is Matchy?",
+        "What is Matchy?",
+        "How does outreach work?",
+        "Do you check for conflicts?",
+        "How are experts vetted?",
+        "When do I see the expert's name?",
+        "Is my identity revealed?"
+      ],
+      "responses": [
+        "Matchy, our outreach agent, contacts experts anonymously on your behalf and handles the conflict and rate conversation. The expert's identity is revealed to you at booking."
+      ]
+    },
+    {
+      "tag": "get_started",
+      "patterns": [
+        "How do I sign up?",
+        "Get started",
+        "Request access",
+        "Book a demo",
+        "Can I try it?",
+        "I want to use this",
+        "How can I join?",
+        "Where do I start?",
+        "Sign me up",
+        "Is there a free trial?"
+      ],
+      "responses": [
+        "You can request access at expertmatch.fit/request-access. The team will run a live sourcing brief on a real question from your pipeline."
+      ]
+    },
+    {
+      "tag": "expert_rate",
+      "patterns": [
+        "How much does an expert call cost?",
+        "What is the rate per expert?",
+        "How much do experts charge?",
+        "What is the hourly rate for an expert?",
+        "Are expert rates shown up front?",
+        "Will I know the price before booking?",
+        "Is there a markup on expert rates?",
+        "How much is one call?"
+      ],
+      "responses": [
+        "Each expert's per-call rate is shown up front before you book, with no hidden markup, and calls are billed per minute after a 15-minute minimum. For specific rate ranges, the team can help at expertmatch.fit/contact."
+      ]
+    },
+    {
+      "tag": "out_of_scope",
+      "patterns": [
+        "What's the weather today?",
+        "Tell me a joke",
+        "Who won the game last night?",
+        "What is the capital of France?",
+        "Write me a poem",
+        "What's your favorite color?",
+        "Can you help with my homework?",
+        "What is the stock price of Apple?",
+        "How do I cook pasta?",
+        "What time is it?",
+        "Sing me a song",
+        "Translate this to Spanish",
+        "What is the meaning of life?",
+        "Do you like pizza?",
+        "How old are you?",
+        "Recommend a movie"
+      ],
+      "responses": [
+        "That's outside what I can help with. I can explain how ExpertMatch works, pricing, or how calls are billed, or you can reach the team at expertmatch.fit/contact."
+      ]
+    }
+  ]
+}
